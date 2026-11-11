@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+.top-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    height: 60px;
+    background: #ffffff;
+    border-bottom: 2px solid #f0f0f0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    font-family: 'Inter', sans-serif;
+}
+
+.nav-brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    cursor: pointer;
+}
+
+.nav-logo {
+    height: 45px;
+    width: auto;
+    object-fit: contain;
+    border-radius: 50%;
+}
+
+.nav-title {
+    font-size: 1.1rem;
+    font-weight: 800;
+    color: #1a237e;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.nav-link {
+    padding: 8px 16px;
+    font-size: 0.88rem;
+    font-weight: 600;
+    color: #555;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+    text-transform: capitalize;
+    white-space: nowrap;
+}
+
+.nav-link:hover {
+    color: #e91e63;
+    background: rgba(233, 30, 99, 0.06);
+}
+
+.nav-link.active {
+    color: #e91e63;
+    border-bottom: 2px solid #e91e63;
+    border-radius: 0;
+}
+
+.nav-user {
+    color: #1a237e;
+    font-weight: 700;
+    cursor: default;
+    background: rgba(26, 35, 126, 0.05);
+    border-radius: 20px;
+    padding: 6px 14px;
+}
+
+.nav-user:hover {
+    background: rgba(26, 35, 126, 0.08);
+    color: #1a237e;
+}
+
+.nav-logout {
+    color: #e91e63;
+    font-weight: 700;
+}
+
+.nav-logout:hover {
+    background: rgba(233, 30, 99, 0.1);
+    color: #c2185b;
+}
+
+.pink-report-nav-btn {
+    background: #ff8fb3;
+    color: white !important;
+    padding: 8px 25px;
+    border-radius: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    margin-left: 10px;
+    box-shadow: 0 4px 10px rgba(255, 143, 179, 0.3);
+    transition: transform 0.2s;
+    font-size: 0.88rem;
+}
+
+.pink-report-nav-btn:hover {
+    transform: scale(1.05);
+}
+
+.nav-right-actions {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    gap: 10px;
+}

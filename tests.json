@@ -1,0 +1,203 @@
+{
+  "cbc": {
+    "id": "cbc",
+    "name": "Complete Blood Count (CBC)",
+    "category": "Hematology",
+    "status": "active",
+    "parameters": [
+      {
+        "name": "Haemoglobin (HB)",
+        "unit": "g/dl",
+        "default_method": "WB/Automated",
+        "reference_ranges": {
+          "male": {
+            "min": 13.5,
+            "max": 17.5
+          },
+          "female": {
+            "min": 12.0,
+            "max": 15.5
+          },
+          "child": {
+            "min": 11.0,
+            "max": 14.0
+          },
+          "default": {
+            "min": 12.0,
+            "max": 17.5
+          }
+        }
+      },
+      {
+        "name": "RBC (Red Blood Cell Count)",
+        "unit": "Million/cmm",
+        "default_method": "WB/Automated",
+        "reference_ranges": {
+          "male": {
+            "min": 4.5,
+            "max": 5.9
+          },
+          "female": {
+            "min": 4.0,
+            "max": 5.2
+          },
+          "default": {
+            "min": 4.0,
+            "max": 5.9
+          }
+        }
+      },
+      {
+        "name": "WBC (Total Leucocyte Count)",
+        "unit": "/cmm",
+        "default_method": "WB/Automated",
+        "reference_ranges": {
+          "default": {
+            "min": 4000,
+            "max": 11000
+          }
+        }
+      },
+      {
+        "name": "Platelet Count",
+        "unit": "Lakhs/cmm",
+        "default_method": "WB/Automated",
+        "reference_ranges": {
+          "default": {
+            "min": 1.5,
+            "max": 4.5
+          }
+        }
+      }
+    ]
+  },
+  "lipid_profile": {
+    "id": "lipid_profile",
+    "name": "Lipid Profile",
+    "category": "Biochemistry",
+    "status": "active",
+    "parameters": [
+      {
+        "name": "S. Cholesterol",
+        "unit": "mg/dl",
+        "default_method": "Spectrophotometry",
+        "reference_ranges": {
+          "default": {
+            "min": 130,
+            "max": 200
+          }
+        }
+      },
+      {
+        "name": "Triglycerides",
+        "unit": "mg/dl",
+        "default_method": "Spectrophotometry",
+        "reference_ranges": {
+          "default": {
+            "min": 60,
+            "max": 150
+          }
+        }
+      },
+      {
+        "name": "HDL Cholesterol",
+        "unit": "mg/dl",
+        "default_method": "Spectrophotometry",
+        "reference_ranges": {
+          "male": {
+            "min": 40,
+            "max": 60
+          },
+          "female": {
+            "min": 50,
+            "max": 60
+          },
+          "default": {
+            "min": 40,
+            "max": 60
+          }
+        }
+      },
+      {
+        "name": "LDL Cholesterol",
+        "unit": "mg/dl",
+        "default_method": "Calculated",
+        "reference_ranges": {
+          "default": {
+            "min": 0,
+            "max": 100
+          }
+        }
+      }
+    ]
+  },
+  "hba1c": {
+    "id": "hba1c",
+    "name": "HbA1c (Glycated Hemoglobin)",
+    "category": "Biochemistry",
+    "status": "active",
+    "parameters": [
+      {
+        "name": "HbA1c",
+        "unit": "%",
+        "default_method": "HPLC",
+        "reference_ranges": {
+          "default": {
+            "min": 4.0,
+            "max": 5.6
+          }
+        }
+      },
+      {
+        "name": "Estimated Average Glucose (eAG)",
+        "unit": "mg/dl",
+        "default_method": "Calculated",
+        "reference_ranges": {
+          "default": {
+            "min": 70,
+            "max": 115
+          }
+        }
+      }
+    ]
+  },
+  "urine_routine": {
+    "id": "urine_routine",
+    "name": "Urine Routine",
+    "category": "Clinical Pathology",
+    "status": "active",
+    "parameters": [
+      {
+        "name": "Urine Albumin",
+        "unit": "",
+        "default_method": "Dipstick",
+        "reference_ranges": {
+          "default": {
+            "display": "NIL"
+          }
+        }
+      },
+      {
+        "name": "Urine Sugar",
+        "unit": "",
+        "default_method": "Dipstick",
+        "reference_ranges": {
+          "default": {
+            "display": "NIL"
+          }
+        }
+      },
+      {
+        "name": "Pus Cells",
+        "unit": "/hpf",
+        "default_method": "Microscopy",
+        "reference_ranges": {
+          "default": {
+            "min": 0,
+            "max": 5
+          }
+        }
+      }
+    ]
+  }
+}

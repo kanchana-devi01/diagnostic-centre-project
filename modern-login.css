@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+.modern-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  /* Very soft icy blue backdrop based on the image's background */
+  background-color: #e5f0ff;
+  font-family: 'Inter', sans-serif;
+  margin: -10px;
+}
+
+.modern-card {
+  width: 900px;
+  height: 500px;
+  background: white;
+  border-radius: 12px;
+  /* Very soft drop shadow as seen in modern apps */
+  box-shadow: 0 15px 40px rgba(100, 150, 255, 0.2);
+  display: flex;
+  overflow: hidden;
+  position: relative;
+}
+
+.modern-left {
+  flex: 0 0 350px;
+  padding: 50px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: white;
+  z-index: 2;
+  box-shadow: 10px 0 30px rgba(0, 0, 0, 0.05);
+  /* The swooping curve trick using combined border radii */
+  border-radius: 0 100px 100px 0;
+  margin-right: -40px; /* Pull the right side underneath */
+  position: relative;
+}
+
+.title {
+  color: #1c2755;
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 25px;
+  letter-spacing: 0.5px;
+}
+
+.subtitle {
+  color: #3f4a66;
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.modern-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  border: 1px solid #c9d5ec;
+  border-radius: 4px;
+  padding: 2px 5px;
+  background-color: white;
+  transition: border-color 0.3s;
+}
+
+.input-group:focus-within {
+  border-color: #5d7ce8;
+}
+
+.icon {
+  padding: 8px;
+  color: #8c9dc4;
+  display: flex;
+  align-items: center;
+}
+
+.end-icon {
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.input-group input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 0.85rem;
+  font-family: inherit;
+  color: #333;
+  padding: 10px 5px;
+  background: transparent;
+}
+
+.input-group input::placeholder {
+  color: #aebce3;
+}
+
+.forgot-link {
+  text-align: right;
+  margin-top: -5px;
+  margin-bottom: 5px;
+}
+
+.forgot-link a {
+  color: #3b82f6;
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.forgot-link a:hover {
+  text-decoration: underline;
+}
+
+.modern-btn {
+  background-color: #557bf8; /* Matching the vibrant blue button */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 12px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.1s;
+  letter-spacing: 0.5px;
+}
+
+.modern-btn:hover {
+  background-color: #4369e8;
+  transform: translateY(-1px);
+}
+
+.signup-link {
+  margin-top: 25px;
+  font-size: 0.8rem;
+  color: #6c789b;
+  text-align: center;
+}
+
+.signup-link a {
+  color: #557bf8;
+  text-decoration: none;
+  font-weight: 600;
+  margin-left: 5px;
+}
+
+.signup-link a:hover {
+  text-decoration: underline;
+}
+
+.modern-right {
+  flex: 1;
+  background-color: #b0cbf9; 
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.illustration-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center left;
+  transform: scale(1.05); /* Slight scale to ensure it fills despite margins */
+}
+
+.error-text {
+  color: #ff4865;
+  font-size: 0.85rem;
+  margin-top: 5px;
+  text-align: center;
+}

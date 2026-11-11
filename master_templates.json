@@ -1,0 +1,64 @@
+{
+  "cbc": {
+    "templateId": "cbc",
+    "templateName": "Complete Blood Count (CBC)",
+    "category": "Hematology",
+    "parameters": [
+      {
+        "name": "Haemoglobin (HB)",
+        "method": "WB/Automated",
+        "unit": "g/dL",
+        "referenceRange": "11.0 - 14.0"
+      },
+      {
+        "name": "RBC (Red Blood Cell Count)",
+        "method": "WB/Automated",
+        "unit": "Million/cmm",
+        "referenceRange": "4.0 - 5.9"
+      },
+      {
+        "name": "WBC (Total Leucocyte Count)",
+        "method": "WB/Automated",
+        "unit": "cells/cmm",
+        "referenceRange": "4000 - 11000"
+      },
+      {
+        "name": "Platelet Count",
+        "method": "WB/Automated",
+        "unit": "Lakhs/cmm",
+        "referenceRange": "1.5 - 4.5"
+      }
+    ]
+  },
+  "lipid_profile": {
+    "templateId": "lipid_profile",
+    "templateName": "Lipid Profile",
+    "category": "Biochemistry",
+    "parameters": [
+      {
+        "name": "S. Cholesterol",
+        "method": "Spectrophotometry",
+        "unit": "mg/dL",
+        "referenceRange": "130 - 200"
+      },
+      {
+        "name": "Triglycerides",
+        "method": "Spectrophotometry",
+        "unit": "mg/dL",
+        "referenceRange": "60 - 150"
+      },
+      {
+        "name": "HDL Cholesterol",
+        "method": "Spectrophotometry",
+        "unit": "mg/dL",
+        "referenceRange": "40 - 60"
+      },
+      {
+        "name": "LDL Cholesterol",
+        "method": "Calculated",
+        "unit": "mg/dL",
+        "referenceRange": "0 - 100"
+      }
+    ]
+  }
+}

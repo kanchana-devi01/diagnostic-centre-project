@@ -1,0 +1,207 @@
+/* Forms standard styling complementing the global theme */
+.form-container {
+  max-width: 500px;
+  margin: 60px auto;
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+  color: #333;
+}
+
+.form-container h2 {
+  text-align: center;
+  color: #1976d2;
+  margin-bottom: 25px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-weight: 600;
+  margin-bottom: 8px;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.form-group input, .form-group select {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-family: inherit;
+  transition: border-color 0.3s;
+}
+
+.form-group input:focus, .form-group select:focus {
+  outline: none;
+  border-color: #00c6ff;
+  box-shadow: 0 0 0 3px rgba(0, 198, 255, 0.1);
+}
+
+.form-submit-btn {
+  width: 100%;
+  padding: 14px;
+  background: #e91e63;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+  margin-top: 10px;
+}
+
+.form-submit-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(233, 30, 99, 0.3);
+}
+
+.back-btn {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  color: #666;
+  text-decoration: none;
+  font-size: 0.9rem;
+  cursor: pointer;
+  background: none;
+  border: none;
+  width: 100%;
+}
+
+.back-btn:hover {
+  text-decoration: underline;
+  color: #333;
+}
+
+/* Success Modal Styles */
+.success-overlay {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.success-modal {
+  background: #fff;
+  padding: 40px;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  max-width: 450px;
+  position: relative;
+  border-top: 4px solid #1976d2;
+}
+
+.rainbow-text-thick {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #1976d2;
+  text-transform: uppercase;
+  margin: 10px 0;
+  display: block;
+}
+
+.success-icon {
+  font-size: 50px;
+  color: #1976d2;
+  margin-bottom: 15px;
+}
+
+.success-modal h2 {
+  color: #333;
+  margin: 0;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.success-modal p {
+  color: #666;
+  margin: 8px 0 0;
+}
+
+.corner-light { display: none; }
+
+/* Test tag chips and interactive input styles */
+.test-tags-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.test-tag-chip {
+  display: inline-flex;
+  align-items: center;
+  background: #eff6ff;
+  color: #2563eb;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  border: 1px solid #bfdbfe;
+}
+
+.test-tag-remove {
+  background: none;
+  border: none;
+  color: #ef4444;
+  margin-left: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 0.95rem;
+  padding: 0 2px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.2s;
+}
+
+.test-tag-remove:hover {
+  color: #b91c1c;
+}
+
+.test-input-wrapper {
+  display: flex;
+  gap: 8px;
+}
+
+.test-add-btn {
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 0 16px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: background 0.2s;
+}
+
+.test-add-btn:hover {
+  background: #1d4ed8;
+}
+
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes scaleUp {
+  from { transform: scale(0.8); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}

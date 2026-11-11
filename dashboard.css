@@ -1,0 +1,363 @@
+/* G.TAKE Style Reset */
+body {
+  margin: 0; padding: 0; background: #E3F2FD; /* Light Blue */
+  color: #333; font-family: 'Inter', sans-serif;
+}
+
+.gtake-layout {
+  display: flex;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #E3F2FD 0%, #FCE4EC 100%);
+}
+
+/* Sidebar */
+.gtake-sidebar {
+  width: 240px; background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(20px); border-right: 1px solid rgba(255,255,255,0.3);
+  display: flex; flex-direction: column; padding: 30px 0;
+}
+.gtake-logo { 
+    font-size: 1.6rem; 
+    font-weight: 800; 
+    color: #1976d2; 
+    text-align: center; 
+    margin-bottom: 40px; 
+    letter-spacing: 1px; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    gap: 12px;
+    text-transform: uppercase;
+}
+.gtake-logo img { width: 60px; height: 60px; border-radius: 50%; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+.gtake-menu, .gtake-bottom-menu { display: flex; flex-direction: column; gap: 10px; padding: 0 20px;}
+.gtake-bottom-menu { margin-top: auto; }
+.menu-item {
+  padding: 12px 20px; border-radius: 10px; cursor: pointer;
+  color: #e91e63; font-weight: 700; font-size: 1.1rem; transition: 0.2s;
+  text-transform: uppercase;
+  display: flex; align-items: center; gap: 12px;
+}
+.menu-item:hover, .menu-item.active {
+  color: #fff; 
+  background: #e91e63;
+  box-shadow: 0 4px 12px rgba(233, 30, 99, 0.2);
+  transform: translateX(5px);
+  border-left: none;
+}
+@keyframes rainbowGlow {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Main Area */
+.gtake-main { flex: 1; padding: 20px 40px; overflow-y: auto;}
+.gtake-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;}
+.breadcrumbs { color: #666; font-size: 0.8rem; font-weight: 600;}
+.header-actions { display: flex; align-items: center; gap: 12px;}
+.add-member { background: rgba(25, 118, 210, 0.1); color: #1976d2; padding: 6px 12px; border-radius: 15px; font-size: 0.8rem; font-weight: 700;}
+.profile-icon { font-size: 1.3rem; background: #fff; border-radius: 50%; padding: 4px; box-shadow: 0 1px 5px rgba(0,0,0,0.1);}
+
+.gtake-welcome h1, .thick-pink-blue { 
+    font-size: 2.8rem; 
+    margin: 0 0 8px; 
+    font-weight: 800; 
+    color: #1976d2; 
+    text-transform: uppercase;
+}
+.gtake-welcome p { color: #555; font-size: 0.95rem; max-width: 500px; line-height: 1.5; margin-bottom: 20px;}
+
+/* Smart Search Bar */
+.smart-search-container {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+.smart-search-input {
+    width: 60%;
+    padding: 15px 25px;
+    border-radius: 30px;
+    border: none;
+    font-size: 1rem;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
+    color: #333;
+}
+.smart-search-input:focus {
+    outline: none;
+    border: 1px solid #1976d2;
+    transform: translateY(-2px);
+}
+
+.filter-pills { display: flex; gap: 15px; align-items: center;}
+.filter-pills span { background: rgba(255, 255, 255, 0.6); padding: 8px 15px; border-radius: 20px; font-size: 0.85rem; border: 1px solid rgba(255,182,193,0.3); font-weight: 600;}
+.new-task-btn { margin-left: auto; background: #e91e63; border: none; color: white; padding: 8px 20px; border-radius: 20px; cursor: pointer; transition: 0.3s; font-weight: 600;}
+.new-task-btn:hover { background: #c2185b; color: white; box-shadow: 0 4px 10px rgba(0,0,0,0.1);}
+
+/* Grid Layout */
+.gtake-content-grid { display: grid; grid-template-columns: 1fr 340px; gap: 24px; margin-top: 20px; margin-bottom: 40px;}
+
+/* Floating Glowing Cards (replaces glass-panel) */
+.glass-panel {
+  background: linear-gradient(135deg, rgba(227, 242, 253, 0.9), rgba(252, 228, 236, 0.9));
+  border-radius: 20px; padding: 25px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid rgba(255,255,255,0.5);
+  color: #333;
+}
+.glass-panel:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+}
+.glass-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;}
+.glass-header h4 { margin: 0; font-weight: 600; font-size: 1.1rem; color: #333;}
+.glass-actions { color: #888; cursor: pointer;}
+.dim { color: #666; font-size: 0.9rem;}
+
+/* Main Patient Panel */
+.main-patient-panel { position: relative; overflow: hidden;}
+.main-patient-panel::before {
+  content: ""; position: absolute; bottom: 0; left: 0; width: 100%; height: 5px;
+  background: linear-gradient(90deg, #E3F2FD, #ffb6c1, #FCE4EC);
+}
+.selected-patient-row { display: flex; align-items: center; gap: 25px;}
+.patient-avatar-large {
+  width: 80px; height: 80px; border-radius: 20px; overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1); border: 2px solid #fff;
+}
+.patient-avatar-large img { width: 100%; height: 100%; object-fit: cover;}
+.patient-meta-large { flex: 1;}
+.patient-meta-large h3 { margin: 0 0 5px; font-size: 1.4rem; color: #333;}
+.patient-meta-large p { margin: 0 0 15px; color: #555; font-size: 0.85rem;}
+.progress-bar-container { display: flex; align-items: center; gap: 15px;}
+.progress-bar-container span { font-size: 0.85rem; color: #555; font-weight: 600;}
+.progress-track { flex: 1; height: 10px; background: rgba(0,0,0,0.05); border-radius: 5px; position: relative; overflow: hidden;}
+.progress-fill { position: absolute; left: 0; top: 0; height: 100%; background: linear-gradient(45deg, #ffb6c1, #ff8fb3); border-radius: 5px;}
+.pct { background: rgba(255, 182, 193, 0.3); padding: 4px 10px; border-radius: 10px; font-weight: 700; font-size: 0.8rem; color: #ff8fb3;}
+.pt-qr-area { background: white; padding: 10px; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.05);}
+
+/* Roster List */
+.patient-list-panel { margin-top: 24px;}
+.panel-title { margin: 0 0 20px; font-weight: 600; font-size: 1.1rem; color: #333;}
+.roster-list { display: flex; flex-direction: column; gap: 15px;}
+.roster-item { display: flex; align-items: center; gap: 15px; padding: 15px; border-radius: 16px; background: rgba(255,255,255,0.6); cursor: pointer; border: 1px solid transparent; transition: 0.3s;}
+.roster-item:hover, .roster-item.active { background: white; border-color: #ffb6c1; box-shadow: 0 5px 10px rgba(255, 182, 193, 0.3);}
+.roster-item img { width: 40px; height: 40px; border-radius: 10px;}
+.roster-info { flex: 1;}
+.roster-info h5 { margin: 0 0 3px; font-size: 1.05rem; font-weight: 600; color: #333;}
+.roster-info small { color: #666;}
+.roster-badges { display: flex; align-items: center; gap: 15px;}
+.roster-badges span:not(.dot) { background: rgba(255, 182, 193, 0.2); color: #ff8fb3; padding: 4px 10px; border-radius: 10px; font-size: 0.75rem; font-weight: 700;}
+.dot { width: 8px; height: 8px; background: #ff8fb3; border-radius: 50%; }
+
+/* Narrow Right Col */
+.note-panel.highlight-gradient {
+  background: linear-gradient(135deg, #ffb6c1 0%, #E3F2FD 100%);
+  border: 1px solid rgba(255, 255, 255, 0.8); margin-bottom: 24px; position: relative; overflow: hidden;
+  color: #333;
+}
+.note-panel h4 { margin: 0 0 15px; font-weight: 600;}
+.note-panel p { color: #444; font-size: 0.9rem; line-height: 1.6; margin-bottom: 25px; font-weight: 500;}
+.note-footer { display: flex; justify-content: space-between; align-items: center; font-size: 0.85rem;}
+.go-btn { background: white; border: 1px solid #ffb6c1; color: #ff8fb3; padding: 6px 12px; border-radius: 15px; cursor: pointer; font-weight: 600;}
+
+.files-panel { margin-bottom: 24px;}
+.files-container { min-height: 150px; display: flex; flex-direction: column; gap: 10px; margin-bottom: 20px;}
+.empty-files {
+  flex: 1; display: flex; flex-direction: column; justify-content: center; align-items: center;
+  background: rgba(255,255,255,0.5); border-radius: 16px; border: 2px dashed rgba(255, 182, 193, 0.5);
+}
+.hologram-box { width: 50px; height: 20px; background: rgba(255, 182, 193, 0.3); border-radius: 10px; margin-bottom: 15px;}
+.file-item { display: flex; align-items: center; gap: 10px; background: rgba(255,255,255,0.7); padding: 12px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.9);}
+.file-icon { font-size: 1.2rem;}
+.file-name { flex: 1; font-size: 0.85rem; font-weight: 500;}
+.file-actions button { background: none; border: none; cursor: pointer; opacity: 0.7; transition: 0.2s; font-size: 1.1rem;}
+.file-actions button:hover { opacity: 1; transform: scale(1.2);}
+.add-file-btn { width: 100%; padding: 12px; background: white; border: 1px solid #ffb6c1; color: #ff8fb3; border-radius: 15px; cursor: pointer; font-weight: 600; box-shadow: 0 4px 10px rgba(0,0,0,0.05);}
+.add-file-btn:hover { box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+
+.activity-panel { position: relative;}
+.chart-mockup { margin-top: 20px; position: relative;}
+.chart-overlay-point { position: absolute; left: 160px; top: 15px; background: #ff8fb3; color: white; padding: 2px 8px; border-radius: 10px; font-size: 0.75rem; font-weight: bold;}
+
+/* PDF Floating Button */
+.pdf-button {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background: #e91e63;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 15px 25px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.pdf-button:hover {
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* Test Examples Grid */
+.test-examples-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.test-card {
+    background: white;
+    border-radius: 20px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
+    border: 1px solid rgba(0, 191, 255, 0.1);
+}
+
+.test-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 191, 255, 0.2);
+}
+
+.test-card img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.test-card h5 {
+    margin: 10px 0 5px;
+    color: #333;
+    font-weight: 700;
+}
+
+.test-card p {
+    font-size: 0.8rem;
+    color: #666;
+}
+
+/* Home Corner Button */
+.home-corner-link {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 800;
+    color: #00BFFF;
+    text-decoration: none;
+    font-size: 1.1rem;
+    background: white;
+    padding: 8px 15px;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.05);
+    transition: 0.3s;
+}
+
+.home-corner-link:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+}
+
+.report-fixed-btn {
+    position: fixed;
+    top: 20px;
+    right: 30px;
+    background: #ff8fb3;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    box-shadow: 0 4px 15px rgba(255, 143, 179, 0.3);
+    z-index: 1000;
+    transition: transform 0.3s ease;
+}
+
+.report-fixed-btn:hover {
+    transform: scale(1.05);
+    color: white;
+}
+
+.edit-dropdown-menu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background: white;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    z-index: 100;
+    width: 150px;
+    padding: 5px 0;
+    overflow: hidden;
+}
+
+.edit-menu-item {
+    padding: 10px 15px;
+    font-size: 0.9rem;
+    color: #333;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.edit-menu-item:hover {
+    background: #f8fbff;
+    color: #e91e63;
+}
+
+.edit-patient-form {
+    background: rgba(255, 255, 255, 0.5);
+    padding: 15px;
+    border-radius: 12px;
+    border: 1px dashed #ff8fb3;
+}
+
+.edit-input {
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-family: inherit;
+    font-size: 0.9rem;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.edit-input:focus {
+    border-color: #ff8fb3;
+}
+
+.save-edit-btn {
+    background: #ff8fb3;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 0.85rem;
+}
+
+.cancel-edit-btn {
+    background: #eee;
+    color: #666;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 0.85rem;
+}

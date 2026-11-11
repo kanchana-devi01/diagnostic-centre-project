@@ -1,0 +1,31 @@
+[
+  {
+    "uid": "52745c43-82f1-408c-be9a-832aa03e3d9f",
+    "email": "john@gmail.com",
+    "password": "scrypt:32768:8:1$dLzzuW54KTLTrprB$1ad2ea8d7b74ea1f776361f738cefacac8fa791ce0d4cc6f9eae4f9c8549233fc28a2a42de71d5c41f7e780840acaa80228d08e1071b56a110a7acf447d01a0a",
+    "name": "John Doe",
+    "disabled": false
+  },
+  {
+    "uid": "03f4305e-e0d3-4733-ab6e-fc3788e2ef6d",
+    "email": "jane@gmail.com",
+    "password": "scrypt:32768:8:1$CVE6gYeAYEDLxsL6$33de4b31103d23141dcf8a21342f2655ce64b7d288e6bb763ae5a018dfee3cea450f44f7ccb56a86dac77a7e079aeb11cd07c8d2ffc0868af8ab29cb1d530a27",
+    "name": "Jane Doe",
+    "disabled": false
+  },
+  {
+    "uid": "e26e21f2-33cd-438f-83e8-e22627700fed",
+    "email": "splabs30@gmail.com",
+    "password": "scrypt:32768:8:1$qMIeyEPjZ55sMRW8$c777745c02183d81fce29f21eabadea4b83f48db8874daab88f0bc0d7cba7bd34fc2660ae79175171b532ef4c8b0a08060980a2a4018e2458e59f8e1eac800be",
+    "name": "sp lab",
+    "disabled": false
+  },
+  {
+    "uid": "super_admin_id",
+    "email": "superadminsairamlab@gmail.com",
+    "password": "scrypt:32768:8:1$L4zCEZlhXXQjjlfy$e7047bc8f0cc6270829e0023cb9fec14bae6109b04874edc7090540fe2588ff66af3f0fe6514f7df51c113f412ae262a1c7d48ccd4d570118db175f0b949680f",
+    "name": "Sairam Lab Super Admin",
+    "role": "super_admin",
+    "disabled": false
+  }
+]

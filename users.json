@@ -1,0 +1,22 @@
+{
+  "03f4305e-e0d3-4733-ab6e-fc3788e2ef6d": {
+    "id": "03f4305e-e0d3-4733-ab6e-fc3788e2ef6d",
+    "name": "Jane Doe",
+    "email": "jane@gmail.com",
+    "phone": "9876543210",
+    "role": "admin",
+    "isActive": true,
+    "createdBy": "super_admin_id",
+    "createdAt": "2026-05-30T10:10:03.079157"
+  },
+  "e26e21f2-33cd-438f-83e8-e22627700fed": {
+    "id": "e26e21f2-33cd-438f-83e8-e22627700fed",
+    "name": "sp lab",
+    "email": "splabs30@gmail.com",
+    "phone": "9566886160",
+    "role": "admin",
+    "isActive": true,
+    "createdBy": "super_admin_id",
+    "createdAt": "2026-05-30T10:40:42.622168"
+  }
+}

@@ -1,0 +1,522 @@
+[
+  {
+    "id": "6a29c8c3-a993-4cdc-ac9d-2b4a25ea2830",
+    "name": "karthik kirshnan",
+    "age": "20",
+    "gender": "Female",
+    "contact": "9087814811",
+    "photo_url": "https://ui-avatars.com/api/?name=Kanchana devi&background=random",
+    "total_bills": 0,
+    "reports": [
+      {
+        "name": "bloodtest",
+        "filename": "report_6a29c8c3-a993-4cdc-ac9d-2b4a25ea2830_20260501_120500.pdf",
+        "date": "2026-05-01"
+      }
+    ],
+    "tests": [
+      {
+        "id": "e2b976aa-37ce-46ea-9b74-b7c82f37286d",
+        "name": "bloodtest",
+        "status": "completed",
+        "result": [
+          {
+            "field": "HEMOGOBLIN",
+            "value": "14.5",
+            "range": "13.5",
+            "name": "kdhkwuhd",
+            "result": "dwbkdb"
+          }
+        ]
+      }
+    ],
+    "vitals": {}
+  },
+  {
+    "id": "1057c9bf-9cf5-4ad6-aa94-bb429191929c",
+    "name": "karthik kirshnan",
+    "age": "20",
+    "gender": "Male",
+    "contact": "7092355498",
+    "photo_url": "https://ui-avatars.com/api/?name=karthik kirshnan&background=random",
+    "total_bills": 0,
+    "reports": [
+      {
+        "name": "MRI",
+        "filename": "report_1057c9bf-9cf5-4ad6-aa94-bb429191929c_20260501_120501.pdf",
+        "date": "2026-05-01"
+      }
+    ],
+    "tests": [
+      {
+        "id": "5d34fd18-5854-4477-ad62-f27c5759a04d",
+        "name": "MRI",
+        "status": "completed",
+        "result": [
+          {
+            "field": "BLOOD TEST",
+            "value": "13.5",
+            "range": "17.5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "7715eb79-f424-4392-af46-e207d6dd2198",
+    "name": "benny",
+    "age": "20",
+    "gender": "Male",
+    "contact": "93457 55690",
+    "photo_url": "https://ui-avatars.com/api/?name=benny&background=random",
+    "total_bills": 0,
+    "reports": [
+      {
+        "name": "MRI",
+        "filename": "report_7715eb79-f424-4392-af46-e207d6dd2198_20260501_120502.pdf",
+        "date": "2026-05-01"
+      }
+    ],
+    "tests": [
+      {
+        "id": "f7ed3bdb-de31-481b-824b-9a75f75cc8b5",
+        "name": "MRI",
+        "status": "completed",
+        "result": [
+          {
+            "field": "hemo",
+            "value": "14.5",
+            "range": "13.5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "5ac7b1da-8d98-4234-9e7a-396e59a456b2",
+    "name": "peter",
+    "age": "34",
+    "gender": "Male",
+    "contact": "93457 55690",
+    "photo_url": "https://ui-avatars.com/api/?name=peter&background=random",
+    "total_bills": 0,
+    "reports": [
+      {
+        "name": "MRI",
+        "filename": "report_5ac7b1da-8d98-4234-9e7a-396e59a456b2_20260501_120502.pdf",
+        "date": "2026-05-01"
+      }
+    ],
+    "tests": [
+      {
+        "id": "fa95547c-acd6-4545-93fb-41591949a28d",
+        "name": "MRI",
+        "status": "completed",
+        "result": [
+          {
+            "id": 1777100607837,
+            "type": "section",
+            "title": "HAEMATOLOGY"
+          },
+          {
+            "id": 1777100607839,
+            "type": "parameter",
+            "name": "Haemoglobin (HB)",
+            "method": "WB/Automated",
+            "result": "",
+            "unit": "g/dl",
+            "range": "11.0-14.0"
+          },
+          {
+            "id": 1777100800798,
+            "type": "parameter",
+            "name": "",
+            "method": "",
+            "result": "",
+            "unit": "",
+            "range": ""
+          },
+          {
+            "id": 1777100810030,
+            "type": "section",
+            "title": "NEW SECTION"
+          },
+          {
+            "id": 1777100811549,
+            "type": "parameter",
+            "name": "",
+            "method": "",
+            "result": "",
+            "unit": "",
+            "range": ""
+          }
+        ]
+      }
+    ],
+    "vitals": {
+      "temp": "1010",
+      "bp": "",
+      "pulse": "",
+      "weight": ""
+    }
+  },
+  {
+    "id": "59c81c0b-9beb-43da-96f0-3a792f5d9e44",
+    "patient_uid": "SR1001",
+    "name": "veera",
+    "age": "22",
+    "gender": "Male",
+    "contact": "123456789",
+    "photo_url": "https://ui-avatars.com/api/?name=veera&background=random",
+    "total_bills": 0,
+    "reports": [
+      {
+        "name": "blood test",
+        "filename": "report_59c81c0b-9beb-43da-96f0-3a792f5d9e44_20260501_120503.pdf",
+        "date": "2026-05-01"
+      }
+    ],
+    "tests": [
+      {
+        "id": "b02ac7a6-46c1-4b7b-9824-7538a402ea76",
+        "name": "blood test",
+        "status": "completed",
+        "result": [
+          {
+            "field": "hemo",
+            "value": "14.5",
+            "range": "13.5"
+          },
+          {
+            "field": "blood test",
+            "value": "7",
+            "range": "8"
+          }
+        ]
+      }
+    ],
+    "vitals": {
+      "temp": "",
+      "bp": "",
+      "pulse": "",
+      "weight": ""
+    }
+  },
+  {
+    "id": "eaa10cb0-0249-48f0-acaa-29e59e36398a",
+    "patient_uid": "SR1002",
+    "name": "Hello",
+    "age": "21",
+    "gender": "Male",
+    "contact": "0987652431",
+    "photo_url": "https://ui-avatars.com/api/?name=Hello&background=random",
+    "total_bills": 0,
+    "reports": [
+      {
+        "name": "Blood test",
+        "filename": "report_eaa10cb0-0249-48f0-acaa-29e59e36398a_20260501_120503.pdf",
+        "date": "2026-05-01"
+      },
+      {
+        "name": "jbujbjbcausbcjsbdfjhv b",
+        "filename": "report_eaa10cb0-0249-48f0-acaa-29e59e36398a_20260501_120504.pdf",
+        "date": "2026-05-01"
+      }
+    ],
+    "tests": [
+      {
+        "id": "a631e029-2053-4c2f-b082-1546c89e00e2",
+        "name": "Blood test",
+        "status": "completed",
+        "result": [
+          {
+            "id": 1777615724186,
+            "type": "section",
+            "title": "HAEMATOLOGY"
+          },
+          {
+            "id": 1777615724187,
+            "type": "parameter",
+            "name": "RBC (Red Blood Cell Count)",
+            "method": "WB/Automated",
+            "result": "",
+            "unit": "Million/cmm",
+            "range": "4.0-5.2"
+          },
+          {
+            "id": 1777615724188,
+            "type": "parameter",
+            "name": "Haemoglobin (HB)",
+            "method": "WB/Automated",
+            "result": "",
+            "unit": "g/dl",
+            "range": "11.0-14.0"
+          }
+        ]
+      },
+      {
+        "id": "635084ad-8fe3-4339-96a8-2b789ec86f8f",
+        "name": "jbujbjbcausbcjsbdfjhv b",
+        "status": "completed",
+        "result": [
+          {
+            "id": 1777615724186,
+            "type": "section",
+            "title": "HAEMATOLOGY"
+          },
+          {
+            "id": 1777615724187,
+            "type": "parameter",
+            "name": "RBC (Red Blood Cell Count)",
+            "method": "WB/Automated",
+            "result": "",
+            "unit": "Million/cmm",
+            "range": "4.0-5.2"
+          },
+          {
+            "id": 1777615724188,
+            "type": "parameter",
+            "name": "Haemoglobin (HB)",
+            "method": "WB/Automated",
+            "result": "",
+            "unit": "g/dl",
+            "range": "11.0-14.0"
+          }
+        ]
+      },
+      {
+        "id": "9c302b0d-9c62-49be-973f-f6bbbc792ee9",
+        "name": "ljysgfluygdsygcluy",
+        "status": "pending",
+        "result": null
+      }
+    ],
+    "vitals": {
+      "temp": "",
+      "bp": "",
+      "pulse": "",
+      "weight": ""
+    }
+  },
+  {
+    "id": "7c57eff3-22ec-4a55-b668-0c363858caf0",
+    "patient_uid": "SR1003",
+    "name": "nisha",
+    "age": "20",
+    "gender": "Female",
+    "contact": "93457 55691",
+    "photo_url": "https://ui-avatars.com/api/?name=nisha&background=random",
+    "total_bills": 0,
+    "reports": [],
+    "tests": [
+      {
+        "id": "3a24d32a-89f5-414c-b0f1-42d3d0c24128",
+        "name": "blood test",
+        "status": "pending",
+        "result": null
+      }
+    ],
+    "vitals": {
+      "temp": "",
+      "bp": "",
+      "pulse": "",
+      "weight": ""
+    }
+  },
+  {
+    "id": "9219d8ea-810c-4b93-b624-b7a2d4b98815",
+    "patient_uid": "SR1004",
+    "name": "HARI",
+    "dob": "2022-07-06",
+    "age": 3,
+    "gender": "Male",
+    "contact": "9912355678",
+    "photo_url": "https://ui-avatars.com/api/?name=HARI&background=random",
+    "registered_at": "2026-05-30T15:13:09.160973",
+    "total_bills": 0,
+    "reports": [
+      {
+        "name": "Complete Blood Count (CBC)",
+        "filename": "report_9219d8ea-810c-4b93-b624-b7a2d4b98815_20260530_153044.pdf",
+        "date": "2026-05-30"
+      },
+      {
+        "name": "Urine Routine",
+        "filename": "report_9219d8ea-810c-4b93-b624-b7a2d4b98815_20260530_153116.pdf",
+        "date": "2026-05-30"
+      }
+    ],
+    "tests": [
+      {
+        "id": "aeb53362-b323-4299-bc44-b030abf7c5d2",
+        "name": "Complete Blood Count (CBC)",
+        "catalog_id": "cbc",
+        "status": "Result Entered",
+        "result": [
+          {
+            "title": "COMPLETE BLOOD COUNT (CBC)",
+            "type": "section",
+            "id": "1780134495867.0164"
+          },
+          {
+            "id": "1a053ca8-7ad4-40bd-97b6-0f7b08bbe0ff",
+            "method": "WB/Automated",
+            "name": "Haemoglobin (HB)",
+            "range": "11.0 - 14.0",
+            "result": "8",
+            "type": "parameter",
+            "unit": "g/dl"
+          },
+          {
+            "id": "a31e3d3c-5950-4e8e-a349-3b4dc70dc03f",
+            "method": "WB/Automated",
+            "name": "RBC (Red Blood Cell Count)",
+            "range": "4.0 - 5.9",
+            "result": "5",
+            "type": "parameter",
+            "unit": "Million/cmm"
+          },
+          {
+            "id": "9899ac1d-5eeb-4614-b127-dd8ea63fbc0e",
+            "method": "WB/Automated",
+            "name": "WBC (Total Leucocyte Count)",
+            "range": "4000 - 11000",
+            "result": "4000",
+            "type": "parameter",
+            "unit": "/cmm"
+          },
+          {
+            "id": "5cd9fb54-0a74-42cb-93d2-b4337fa0a704",
+            "method": "WB/Automated",
+            "name": "Platelet Count",
+            "range": "1.5 - 4.5",
+            "result": "2 .6",
+            "type": "parameter",
+            "unit": "Lakhs/cmm"
+          }
+        ],
+        "template_rows": [
+          {
+            "type": "section",
+            "title": "COMPLETE BLOOD COUNT (CBC)"
+          },
+          {
+            "id": "1a053ca8-7ad4-40bd-97b6-0f7b08bbe0ff",
+            "type": "parameter",
+            "name": "Haemoglobin (HB)",
+            "method": "WB/Automated",
+            "result": "",
+            "unit": "g/dl",
+            "range": "11.0 - 14.0"
+          },
+          {
+            "id": "a31e3d3c-5950-4e8e-a349-3b4dc70dc03f",
+            "type": "parameter",
+            "name": "RBC (Red Blood Cell Count)",
+            "method": "WB/Automated",
+            "result": "",
+            "unit": "Million/cmm",
+            "range": "4.0 - 5.9"
+          },
+          {
+            "id": "9899ac1d-5eeb-4614-b127-dd8ea63fbc0e",
+            "type": "parameter",
+            "name": "WBC (Total Leucocyte Count)",
+            "method": "WB/Automated",
+            "result": "",
+            "unit": "/cmm",
+            "range": "4000 - 11000"
+          },
+          {
+            "id": "5cd9fb54-0a74-42cb-93d2-b4337fa0a704",
+            "type": "parameter",
+            "name": "Platelet Count",
+            "method": "WB/Automated",
+            "result": "",
+            "unit": "Lakhs/cmm",
+            "range": "1.5 - 4.5"
+          }
+        ]
+      },
+      {
+        "id": "a6e514a4-aa74-4a94-9f0f-ea4c875137c0",
+        "name": "Urine Routine",
+        "catalog_id": "urine_routine",
+        "status": "Result Entered",
+        "result": [
+          {
+            "title": "URINE ROUTINE",
+            "type": "section",
+            "id": "1780135261110.9075"
+          },
+          {
+            "id": "771926b1-8969-46dd-b7ac-efd83fae61f2",
+            "method": "Dipstick",
+            "name": "Urine Albumin",
+            "range": "NIL",
+            "result": "w",
+            "type": "parameter",
+            "unit": ""
+          },
+          {
+            "id": "8fc10b07-decf-4c8f-9eab-005da6fc6f2b",
+            "method": "Dipstick",
+            "name": "Urine Sugar",
+            "range": "NIL",
+            "result": "c",
+            "type": "parameter",
+            "unit": ""
+          },
+          {
+            "id": "9fb2f008-b928-4203-ae32-21f9e505d535",
+            "method": "Microscopy",
+            "name": "Pus Cells",
+            "range": "0 - 5",
+            "result": "2",
+            "type": "parameter",
+            "unit": "/hpf"
+          }
+        ],
+        "template_rows": [
+          {
+            "type": "section",
+            "title": "URINE ROUTINE"
+          },
+          {
+            "id": "771926b1-8969-46dd-b7ac-efd83fae61f2",
+            "type": "parameter",
+            "name": "Urine Albumin",
+            "method": "Dipstick",
+            "result": "",
+            "unit": "",
+            "range": "NIL"
+          },
+          {
+            "id": "8fc10b07-decf-4c8f-9eab-005da6fc6f2b",
+            "type": "parameter",
+            "name": "Urine Sugar",
+            "method": "Dipstick",
+            "result": "",
+            "unit": "",
+            "range": "NIL"
+          },
+          {
+            "id": "9fb2f008-b928-4203-ae32-21f9e505d535",
+            "type": "parameter",
+            "name": "Pus Cells",
+            "method": "Microscopy",
+            "result": "",
+            "unit": "/hpf",
+            "range": "0 - 5"
+          }
+        ]
+      }
+    ],
+    "vitals": {
+      "bp": "",
+      "pulse": "",
+      "temp": "",
+      "weight": ""
+    }
+  }
+]

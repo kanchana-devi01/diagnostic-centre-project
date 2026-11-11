@@ -1,0 +1,50 @@
+{
+  "83fcf766-4128-4473-919b-3ba8f7d11c9c": {
+    "id": "83fcf766-4128-4473-919b-3ba8f7d11c9c",
+    "user": "system",
+    "action": "Added patient: HARI (SR1004)",
+    "timestamp": "2026-05-30T09:43:09.161588",
+    "old_value": null,
+    "new_value": null
+  },
+  "4988ddbb-6c08-46bf-96d8-f7bd5f089254": {
+    "id": "4988ddbb-6c08-46bf-96d8-f7bd5f089254",
+    "user": "system",
+    "action": "Updated patient ID 9219d8ea-810c-4b93-b624-b7a2d4b98815",
+    "timestamp": "2026-05-30T09:46:32.898048",
+    "old_value": null,
+    "new_value": null
+  },
+  "034a768e-bda1-4b85-9cd2-4e67b510817a": {
+    "id": "034a768e-bda1-4b85-9cd2-4e67b510817a",
+    "user": "system",
+    "action": "Generated report for test 'Complete Blood Count (CBC)' (Patient 9219d8ea-810c-4b93-b624-b7a2d4b98815)",
+    "timestamp": "2026-05-30T10:00:46.051358",
+    "old_value": null,
+    "new_value": null
+  },
+  "65bc7524-c483-48d5-a46f-7b6af96eabf6": {
+    "id": "65bc7524-c483-48d5-a46f-7b6af96eabf6",
+    "user": "system",
+    "action": "Generated report for test 'Urine Routine' (Patient 9219d8ea-810c-4b93-b624-b7a2d4b98815)",
+    "timestamp": "2026-05-30T10:01:16.783284",
+    "old_value": null,
+    "new_value": null
+  },
+  "454d61b7-0b13-4977-8070-d9b8c297c8b0": {
+    "id": "454d61b7-0b13-4977-8070-d9b8c297c8b0",
+    "user": "super_admin_id",
+    "action": "Created Admin user: jane@gmail.com (03f4305e-e0d3-4733-ab6e-fc3788e2ef6d)",
+    "timestamp": "2026-05-30T10:10:03.079157",
+    "old_value": null,
+    "new_value": null
+  },
+  "27e1d779-b523-4112-b3c1-ccb9c4a8d51e": {
+    "id": "27e1d779-b523-4112-b3c1-ccb9c4a8d51e",
+    "user": "super_admin_id",
+    "action": "Created Admin user: splabs30@gmail.com (e26e21f2-33cd-438f-83e8-e22627700fed)",
+    "timestamp": "2026-05-30T10:40:42.627367",
+    "old_value": null,
+    "new_value": null
+  }
+}
